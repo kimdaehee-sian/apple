@@ -1,0 +1,1 @@
+window.onload=()=>{var d=window.navigator.userAgent;-1<d.indexOf("NAVER")&&-1<d.indexOf("Android")&&document.querySelector("html").classList.add("naver-app")};

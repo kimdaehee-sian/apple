@@ -1,0 +1,433 @@
+.footnote-diamond {
+    position: relative;
+    vertical-align: initial;
+    font-feature-settings: "numr";
+    font-size:1em
+}
+
+sup.footnote-diamond {
+    top:auto;
+    text-decoration: line-through;
+}
+
+sub.footnote-diamond {
+    bottom:-0.5em
+}
+
+.footnote-diamond.footnote-reduced {
+    font-size: .9em;
+    top:-0.09em
+}
+
+sub.footnote-diamond.footnote-reduced {
+    top: auto;
+    bottom:-0.52em
+}
+
+.icon-wrapper .icon, .icon-wrapper .icon-after:after, .icon-wrapper .icon-before:before, .icon-wrapper .more:not(.icon-before):after {
+    position: relative;
+}
+
+.icon-after:after, .more:after {
+    top: -.08em;
+}
+
+#ac-globalfooter .ac-gf-more::after {
+    top: -0.087em;
+}
+
+.icon-playcircle:after, .icon-playcircle:before {
+    top: 0.03em
+}
+
+.icon-before:before {
+    top: 0.06em;
+}
+
+.section-hero .content-container .hero-copy-container .macbook-air-13-and-15-global-avail{
+    color: #6e6e73;
+}
+
+html.safari article.section-performance .modal-trigger-container .button:after{
+    padding-top: 4px;
+}
+
+.br-330 {
+    display: none;
+}
+
+@media only screen and (max-width:330px) {
+    .br-330 {
+        display: block;
+    }
+    
+}
+
+@media only screen and (max-width: 921px) {
+    .medium.custom-br {
+        display: none;
+    }
+}
+
+html.no-enhance-xp .inline-media .start-frame{
+    opacity: 0;
+}
+
+/* images */
+.section-macos .apps-wrapper .apps {
+    background-repeat: no-repeat;
+    background-image: url(/kr/macbook-air/images/overview/performance/apps/all-apps/apps__dcweftdl8uqa_large.jpg);
+}
+
+@media (min-resolution: 144dpi), only screen and (min-resolution: 1.5dppx) {
+    .section-macos .apps-wrapper .apps {
+        background-image:url(/kr/macbook-air/images/overview/performance/apps/all-apps/apps__dcweftdl8uqa_large_2x.jpg);
+    }
+}
+
+@media only screen and (max-width: 1068px) {
+    .section-macos .apps-wrapper .apps {
+        background-repeat: no-repeat;
+        background-image:url(/kr/macbook-air/images/overview/performance/apps/all-apps/apps__dcweftdl8uqa_medium.jpg);
+    }
+}
+
+@media only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+    .section-macos .apps-wrapper .apps {
+        background-image:url(/kr/macbook-air/images/overview/performance/apps/all-apps/apps__dcweftdl8uqa_medium_2x.jpg);
+    }
+}
+
+@media only screen and (max-width: 734px) {
+    .section-macos .apps-wrapper .apps {
+        background-repeat: no-repeat;
+        background-image:url(/kr/macbook-air/images/overview/performance/apps/all-apps/apps__dcweftdl8uqa_small.jpg);
+    }
+}
+
+@media only screen and (max-width: 734px) and (min-resolution: 1.5dppx), only screen and (max-width: 734px) and (min-resolution: 144dpi) {
+    .section-macos .apps-wrapper .apps {
+        background-image:url(/kr/macbook-air/images/overview/performance/apps/all-apps/apps__dcweftdl8uqa_small_2x.jpg);
+    }
+}
+
+/* section-apple-intelligence */
+.section-apple-intelligence .typography-section-headline{
+    line-height: 1.16111111116;
+}
+
+@media only screen and (max-width:1068px){
+    .section-apple-intelligence .typography-section-headline{
+        line-height: 1.17857142854;
+    }
+}
+
+@media only screen and (max-width:734px){
+    .section-apple-intelligence .typography-section-headline{
+        line-height: 1.2;
+    }
+}
+
+.section-apple-intelligence .bento-item-image-wrapper{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+article.section-apple-intelligence .article-header{
+    margin-top: 50px;
+}
+
+@media only screen and (max-width:1068px){
+    article.section-apple-intelligence .article-header{
+        margin-top: 30px;
+    }
+}
+
+@media only screen and (max-width:734px){
+    .section-apple-intelligence .bento-item-image-wrapper{
+        margin-top: 96px;
+    }
+}
+
+.section-apple-intelligence .article-copy.custom{
+    font-weight: 500;
+    margin-bottom: 50px;
+}
+
+@media only screen and (max-width:1068px){
+    .section-apple-intelligence .article-copy.custom{
+        margin-bottom: 30px;
+    }
+}
+
+@media only screen and (max-width:734px){
+    .section-apple-intelligence .article-copy.custom{
+        margin-bottom: 21px;
+    }
+}
+
+@media only screen and (max-width:1068px){
+    html.naver-app article.section-apple-intelligence .tabnav-gallery .gallery-item, 
+    html.naver-app article.section-apple-intelligence .tabnav-gallery .item-container{
+        grid-template-rows: unset;
+        height: 660px;
+    }
+
+    html.naver-app article.section-apple-intelligence .tabnav-gallery .tablist-wrapper{
+        margin-top: 295px;
+    }
+
+    html.naver-app article.section-apple-intelligence .apple-intelligence-tabnav-gallery .gallery-caption p{
+        height: 88px;
+    }
+}
+
+
+@media only screen and (max-width:734px){
+    html.naver-app article.section-apple-intelligence .tabnav-gallery .gallery-item, 
+    html.naver-app article.section-apple-intelligence .tabnav-gallery .item-container{
+        grid-template-rows: unset;
+        height: 650px;
+    }
+
+    html.naver-app article.section-apple-intelligence .tabnav-gallery .tablist-wrapper{
+        margin-top: -20px;
+    }
+
+    html.naver-app article.section-apple-intelligence .apple-intelligence-tabnav-gallery .gallery-caption p{
+        height: 245px;
+    }
+}
+
+/* section-camera-audioe */
+article.section-camera-audio .article-headline{
+    max-width: 570px;
+}
+
+@media only screen and (max-width:1068px){
+    article.section-camera-audio #camera-audio-gallery-item-1 .gallery-caption{
+        max-width: 515px;
+    }
+}
+
+@media only screen and (max-width:734px){
+    article.section-camera-audio #camera-audio-gallery-item-1 .gallery-caption{
+        max-width: unset;
+    }
+}
+
+.no-js .inline-media .end-frame, .inline-media .start-frame{
+    opacity: 1;
+}
+
+@media only screen and (max-width:1068px){
+    html.naver-app article.section-camera-audio .gallery-item-center-stage .hardware-mask{
+        -webkit-mask-image: image-set(url(/v/macbook-air/t/images/overview/camera-audio/camera_audio_center_stage_mask__fqku6yhc26um_medium.png) 1x,url(/v/macbook-air/t/images/overview/camera-audio/camera_audio_center_stage_mask__fqku6yhc26um_medium_2x.png) 2x);
+        -webkit-mask-size: 100% 100% ;
+        -webkit-mask-repeat: no-repeat;
+    }
+
+    html.naver-app article.section-camera-audio .tabnav-gallery .gallery-item, 
+    html.naver-app article.section-camera-audio .tabnav-gallery .item-container{
+        height: 600px;
+        grid-template-rows: unset;
+    }
+
+    html.naver-app article.section-camera-audio .gallery-item-media-wrapper{
+        height: 416px;
+    }
+
+    html.naver-app article.section-camera-audio .tabnav-gallery .tablist-wrapper{
+        margin-top: 356px;
+    }
+
+    html.naver-app article.section-camera-audio .tabnav-gallery .gallery-caption p{
+        height: 20px;
+    }
+}
+
+@media only screen and (max-width:734px){
+    html.naver-app article.section-camera-audio .gallery-item-center-stage .hardware-mask{
+        -webkit-mask-image: image-set(url(/v/macbook-air/t/images/overview/camera-audio/camera_audio_center_stage_mask__fqku6yhc26um_small.png) 1x,url(/v/macbook-air/t/images/overview/camera-audio/camera_audio_center_stage_mask__fqku6yhc26um_small_2x.png) 2x);
+        -webkit-mask-size: 100% 100%;
+        -webkit-mask-repeat: no-repeat;
+    }
+
+    html.naver-app article.section-camera-audio .tabnav-gallery .gallery-item, html.naver-app article.section-camera-audio .tabnav-gallery .item-container{
+        height: 510px;
+        grid-template-rows: unset;
+    }
+
+    html.naver-app article.section-camera-audio .gallery-item-media-wrapper{
+        height: 259px;
+    }
+
+    html.naver-app article.section-camera-audio .tabnav-gallery .tablist-wrapper{
+        margin-top: 110px;
+    }
+
+    html.naver-app article.section-camera-audio .tabnav-gallery .gallery-caption p{
+        height: 108px;
+    }
+}
+
+/* section-upgraders */
+@media only screen and (min-width:735px) and (max-width:1068px){
+    .section-upgraders .upgraders-content .upgraders-gallery .bento-grid .bento-item:nth-child(3), .section-upgraders .upgraders-content .upgraders-gallery .bento-grid .bento-item:nth-child(4){
+        max-height: 190px;
+    }
+}
+
+/* section-design */
+@media only screen and (max-width:734px){
+    article.section-design .subsection-size .size-labels .size{
+        margin-inline: unset;
+    }
+    article.section-design .subsection-size .size-labels .size-wrapper:nth-child(1) .size{
+        margin-left: 15px;
+        margin-right: 25px;
+    }
+    article.section-design .subsection-size .size-labels .size-wrapper:nth-child(2) .size{
+        margin-left: 25px;
+        margin-right: 15px;
+    }
+}
+
+/* section-performance */
+article.section-performance .article-headline{
+    max-width:10em;
+}
+
+article.section-performance .badge.badge1{
+    margin-right: 86px;
+}
+
+@media only screen and (max-width:1068px){
+    article.section-performance .badge.badge1{
+        margin-right: 33px;
+    }
+}
+
+@media only screen and (max-width:734px){
+    article.section-performance .badge.badge1{
+        margin-right: 0px;
+    }
+
+    article.section-performance .badge.badge1 .badge-caption{
+        max-width: 11em;
+    }
+}
+
+
+/* section-routers */
+.section-routers .router-item-business .router-item-copy{
+    max-width: 17em;
+}
+
+.router-item-environment.router-item.full-split .router-content-wrapper {
+	display: flex;
+	justify-content: center;
+	text-align: center;
+}
+
+.router-item-environment.router-item.full-split .router-content-wrapper .router-item-copy {
+	max-width: 600px;
+}
+
+@media only screen and (max-width:1068px) {
+	.router-item-environment.router-item.full-split .router-content-wrapper .router-item-copy {
+		max-width: 420px;
+	}
+}
+
+@media only screen and (min-width: 735px){
+    .router-item-tradein.router-item.full-split .router-item-picture{
+        justify-content: unset;
+    }
+}
+
+@media only screen and (max-width: 760px) and (min-width: 735px){
+    .router-item-tradein.router-item.full-split .router-content-wrapper{
+        display: flex;
+        flex-direction: unset;
+        padding-left: 50px;
+        padding-right: 20px;
+    }
+}
+
+.overview-routers-trade-in{
+    width: 462px;
+    height: 282px;
+    --p-width: 462px;
+    --p-height: 282px;
+}
+
+@media only screen and (max-width:1068px)and (max-width:1068px){
+    .overview-routers-trade-in{
+        width: 356px;
+        height: 216px;
+        --p-width: 356px;
+        --p-height: 216px;
+    }
+}
+
+@media only screen and (max-width:734px)and (max-width:734px){
+    .overview-routers-trade-in{
+        width: 278px;
+        height: 170px;
+        --p-width: 278px;
+        --p-height: 170px;
+    }
+}
+
+/* article-eyebrow */
+article.section-macos .article-eyebrow,
+article.section-mac-plus-iphone .article-eyebrow{
+    text-transform:unset;
+}
+
+/* chip modal */
+@media only screen and (max-width:734px){
+    .fix-small{
+        margin-right: -1rem;
+    }
+}
+
+
+.router-item-picture.align-middle.trade-in-picture{
+    --minimum-row-spacing: 0px;
+    /* padding-bottom: 0px; */
+}
+
+
+
+#overview-routers-tradein-1{
+    display:flex;
+    justify-content: center;
+}
+
+
+.overview-routers-tradein {
+display: block;
+width: var(--p-width);
+height: var(--p-height);
+max-width: 100%;
+--p-width: 1380px;
+--p-height: 528px;
+}
+
+@media only screen and (max-width:1068px) and (max-width:1068px) {
+.overview-routers-tradein {
+--p-width: 1028px;
+--p-height: 404px;
+}
+
+}
+
+@media only screen and (max-width:734px) and (max-width:734px){
+.overview-routers-tradein {
+--p-width: 375px;
+--p-height: 192px;
+}
+}
